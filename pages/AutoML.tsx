@@ -641,7 +641,7 @@ const ADModelView = () => (
                   <div key={i} className="flex items-center gap-3 p-3 bg-red-50 dark:bg-red-900/20 border border-red-100 dark:border-red-900 rounded-lg">
                      <AlertCircle className="text-red-500" size={20} />
                      <div>
-                        <div className="font-bold text-red-700 dark:text-red-300 text-sm">數值超出閾值 (Value > 95.0)</div>
+                        <div className="font-bold text-red-700 dark:text-red-300 text-sm">數值超出閾值 (Value &gt; 95.0)</div>
                         <div className="text-xs text-red-500">2024-05-12 14:30:22</div>
                      </div>
                   </div>
